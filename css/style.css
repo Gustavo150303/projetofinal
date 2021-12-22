@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: quicksand;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*-----------------------------------COMEÇO TOPO E BANNER---------------------------------------*/
+.jumbotron {
+    position: relative;
+    background: url("../imagens/banner.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 795px;
+}
+
+.navbar-brand{
+ font-size: 25px;
+ font-weight: bold;
+}
+
+.navbar-customnav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav li{
+    position: relative;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+li:after{
+    content: "";
+    position: absolute;
+    background-color: #0030a0e1;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;  
+    transition: 0.3s; 
+}
+
+.nav li:hover:after{
+    width: 100%;
+}
+
+.nav li:hover{
+    text-shadow: 0 0 1vh rgb(255, 255, 255); 
+}
+.container-fluid{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+/*-----------------------------------FIM TOPO E BANNER---------------------------------------*/
+
+/*-----------------------------------COMEÇO PORTFÓLIO----------------------------------------*/
+.barrapreta{
+    width: 100%;
+    height: 3900px;
+    background-color: rgb(0, 0, 0);
+}
+
+.barrapreta h1{
+    color:#fff;
+    font-size: 55px;
+    padding-left: 175px;
+    padding-top: 85px;
+}
+
+.rlex{
+    display: flex;
+    padding: 50px;
+}
+
+#foto5{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto6{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto2{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto1{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto4{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto7{
+    width: 100%;
+    padding: 25px;
+}
+
+#foto3{
+    width: 100%;
+    padding: 25px;
+}
+/*-------------------------------------FIM PORTFÓLIO---------------------------------------*/
+
+/*-----------------------------------COMEÇO SOBRE NÓS--------------------------------------*/
+.flex{
+    display: flex;
+}
+
+.sobrenos{
+    
+    background: url(../imagens/caixa1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.sobrenos h1{
+    color:rgb(255, 255, 255);
+    font-size: 55px;
+    padding: 85px 175px;
+    
+}
+
+.sobre li{
+    padding: 35px 70px;
+    font-size: 23px;
+    color: white;
+    list-style: none;
+}
+
+.btsc{
+    padding: 0px 90px;
+}
+
+#imagem{
+    box-shadow: 1px 10px 15px rgb(0, 0, 0);
+}
+/*-----------------------------------FIM SOBRE NÓS--------------------------------------------*/
+
+/*-----------------------------------COMEÇO SERVIÇOS-------------------------------------------*/
+.servicos{
+    background-color: #fff;
+    width: 100%;
+    height: 1300px;
+}
+
+.servicos h1{
+    color:rgb(0, 0, 0);
+    font-size: 55px;
+    padding: 85px 175px;
+}
+
+.tlex{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 295px;
+    padding-right: 295px;
+}
+
+.artigos{
+    margin-top: 22px;
+    padding-left: 295px;
+    padding-right: 295px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*------------Começo Artigo 1-----------*/
+.artigo1{
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.artigo1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo1{
+    width: 340px;
+    height: 423px;
+    background-color: rgb(255, 255, 255);
+}
+.cor1{
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/fotografica.jpg);
+    background-size: cover;
+    /*background-color: #ff636300;*/
+}
+
+.conteudo_artigo1 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo1 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 1----------------*/
+
+/*------------Começo Artigo 2-----------*/
+.artigo2{
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.artigo2:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo2{
+    width: 340px;
+    height: 423px;
+    background-color: #fff;
+}
+.cor2{  
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/camera.jpg);
+    background-size: cover;
+    background-color: #63ECFF;
+}
+
+.conteudo_artigo2 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo2 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 2----------------*/
+
+/*------------Começo Artigo 3-----------*/
+.artigo3{
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.artigo3:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo3{
+    width: 340px;
+    height: 423px;
+    background-color: #fff;
+}
+.cor3{
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/camera2.jpg);
+    background-size: cover;
+    background-color: #F363FF;
+}
+.conteudo_artigo3 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo3 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 3----------------*/
+
+/*------------Começo Artigo 4-----------*/
+.artigo4{
+    margin-top: 85px;
+    margin-bottom: 150px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.artigo4:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo4{
+    width: 340px;
+    height: 423px;
+    background-color: #fff;
+}
+.cor4{
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/grafico.jpg);
+    background-size: cover;
+    background-color: #63FF73;
+}
+.conteudo_artigo4 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo4 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 4----------------*/
+
+/*------------Começo Artigo 5-----------*/
+.artigo5{
+    margin-top: 85px;
+    margin-bottom: 150px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.artigo5:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo5{
+    width: 340px;
+    height: 423px;
+    background-color: #fff;
+}
+.cor5{
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/banner2.png);
+    background-size: cover;
+    background-color: #FFDD63;
+}
+.conteudo_artigo5 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo5 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 5----------------*/
+
+/*------------Começo Artigo 6-----------*/
+.artigo6{
+    margin-top: 85px;
+    margin-bottom: 150px;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.465);
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.artigo6:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.conteudo_artigo6{
+    width: 340px;
+    height: 423px;
+    background-color: #fff;
+}
+.cor6{
+    width: 340px;
+    height: 222px;
+    background: url(../imagens/site.jpg);
+    background-size: cover;
+    background-color: #6663FF;
+}
+.conteudo_artigo6 h4{
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.conteudo_artigo6 p{
+    margin-top: 32px;
+    margin-left: 25px;
+    line-height: 23px;
+}
+/*----------Fim Artigo 6----------------*/
+/*-----------------------------------FIM SERVIÇOS---------------------------------------------*/
+
+/*-----------------------------------COMEÇO CONTATO-------------------------------------------*/
+.contato{
+    height: 790px;
+    background-color: #000000;
+}
+
+.entrcont{
+    text-align: center;
+    color: #fff;
+    padding-top: 3.5%;
+    padding-bottom: 3%;
+    font-size: 55px;
+}
+
+.modal{
+    flex-direction:column;
+}
+
+.content_modal{
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+.formulario_contato{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 75%;
+    font-size: 18px;
+    padding: 1em ;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#input_mensagem{
+    resize: none;
+    height: 25%;
+}
+
+#btn_mensagem{
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0e44c377;
+    width: 25%;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: quicksand;
+    margin-top: 20px;
+    margin-left: 139px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#btn_mensagem:hover{
+    color:#0e45c3;
+    background-color: rgb(255, 255, 255);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*-----------------------------------FIM CONTATO-------------------------------------------*/
+
+/*-----------------------------------COMEÇO RODAPÉ-------------------------------------------*/
+.rodape{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    background: url("../imagens/claquete.jpg") center center;
+    background-size: cover;
+    
+}
+
+.palavras{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0px;
+    padding-left: 100px;
+}
+
+.rodape h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rodape li{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    line-height: 25px;
+}
+
+.legenda{
+    margin: auto;
+    display: flex;
+    padding:0 850px;
+}
+
+.legenda li{
+   font-weight: bold;
+   color: #fff;
+}
+/*-----------------------------------FIM RODAPÉ-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+ 
